@@ -30,8 +30,8 @@
                     <td>{{ $product->price }}</td>
                     <td>{{ $product->quantity }}</td>
                     <td>
-                     <a href="" class="btn btn-success">Modify</a>
-                        <a href="" class="btn btn-danger">Delete</a>
+                     <a href="/getId/{{$product->id}}" class="btn btn-success">Modify</a>
+                        <a href="/delete/{{$product->id}}" class="btn btn-danger">Delete</a>
                         </td>
                 </tr>
                 @endforeach
